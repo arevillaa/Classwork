@@ -123,4 +123,36 @@ h2 {
     h2 {
         font-size: 1.6rem;
     }
+/* Fix for character image and text layout */
+section {
+  background: rgba(20, 20, 20, 0.85);
+  border: 2px solid #fdd835;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: 85%;
+  max-width: 900px;
+  box-shadow: 0 0 25px #fdd83533;
+  text-align: center;
+}
+
+/* Make sure images fit nicely inside sections */
+section img {
+  display: block;
+  width: 100%;
+  max-width: 400px; /* limits how large images can get */
+  height: auto;
+  margin: 0 auto 1rem; /* centers image and adds space below */
+  border-radius: 10px;
+  border: 3px solid #fdd835;
+  box-shadow: 0 0 15px #fdd83544;
+}
+
+/* Text stays readable inside the section */
+section p {
+  text-align: justify;
+  line-height: 1.6;
+  color: #eee;
+}
+
 }
