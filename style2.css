@@ -135,7 +135,7 @@ h2 {
 
 .image.featured img {
   width: 90%;              /* Make image smaller and responsive */
-  max-width: 200px;        /* You can increase this if you want it a bit bigger */
+  max-width: 50px;        /* You can increase this if you want it a bit bigger */
   height: auto;            /* Keep proportions */
   border-radius: 10px;     /* Smooth corners */
   display: block;
